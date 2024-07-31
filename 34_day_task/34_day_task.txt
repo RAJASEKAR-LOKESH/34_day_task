@@ -1,0 +1,19 @@
+CREATE DATABASE GUVIZEN;
+CREATE TABLE ZENCLASS (
+    StudentID int,
+    StudentName varchar(255),
+    State varchar(255),
+    Codekata_count int,
+    Attendance varchar(255),
+    Topics varchar(255),
+    Tasks int,
+    Company_drives int,
+    Mentor varchar(255)
+);
+INSERT INTO ZENCLASS VALUES (1,"Rajasekar L","Tamil Nadu",100,"98%","React JS",10,5,"Poonam");
+INSERT INTO ZENCLASS VALUES (2,"Srinivasan S","Tamil Nadu",120,"96%","SQL",10,5,"Poonam");
+INSERT INTO ZENCLASS VALUES (3,"Murali P","Tamil Nadu",90,"90%","React JS",12,8,"Poonam");
+INSERT INTO ZENCLASS VALUES (4,"Gowtham P","Tamil Nadu",150,"97%","MangoDB",10,9,"Poonam");
+INSERT INTO ZENCLASS VALUES (5,"Pushparaj","Tamil Nadu",95,"92%","Java Script",4,10,"Poonam");
+
+SELECT * FROM ZENCLASS;
